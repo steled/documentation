@@ -1,6 +1,6 @@
-# Configuration
+# Create, Configure, Publish
 
-- how to configure MkDocs for use with GitHub Actions
+- how to create, configure and publish Material for MkDocs with GitHub Actions
 
 ## Source
 
@@ -20,7 +20,7 @@
 └─ mkdocs.yml
 ```
 
-## Configure the site
+## Configuring the site
 
 - add at least the following lines to `mkdocs.yml`:
 
@@ -31,7 +31,7 @@ theme:
   name: material
 ```
 
-## Add GitHub Action
+## Publishing the site
 
 - add the following code to the file `.github/workflows/ci.yml`
 
