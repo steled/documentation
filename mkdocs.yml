@@ -1,4 +1,28 @@
-site_name: Test
+site_author: steled
+site_name: Documentation of steled
 site_url: https://steled.github.io/documentation
+repo_url: https://github.com/steled/notes
+repo_name: steled/notes
 theme:
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.indexes
+    - content.code.copy
+  language: en
   name: material
+  plugins:
+    - search:
+      lang: en
+markdown_extensions:
+  - admonition
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+nav:
+  - Home:
+    - index.md
