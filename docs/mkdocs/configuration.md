@@ -1,6 +1,6 @@
 # Configuration
 
-- how to configure MkDocs to use with GitHub Actions
+- how to configure MkDocs for use with GitHub Actions
 
 ## Creating the site
 
