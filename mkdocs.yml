@@ -1,8 +1,8 @@
 site_author: steled
 site_name: Documentation of steled
 site_url: https://steled.github.io/documentation
-repo_url: https://github.com/steled/notes
-repo_name: steled/notes
+repo_url: https://github.com/steled/boilerplate
+repo_name: steled/boilerplate
 theme:
   features:
     - navigation.tabs
