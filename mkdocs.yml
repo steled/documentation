@@ -27,4 +27,5 @@ nav:
   - Home:
     - index.md
   - MkDocs:
-    - mkdocs/configuration.md
+    - mkdocs/create_configure_publish.md
+    - mkdocs/features_plugins_extensions.md
