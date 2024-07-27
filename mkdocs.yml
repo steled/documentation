@@ -26,3 +26,5 @@ markdown_extensions:
 nav:
   - Home:
     - index.md
+  - MkDocs:
+    - configuration.md
