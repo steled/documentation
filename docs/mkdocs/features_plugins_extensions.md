@@ -4,7 +4,6 @@
 
 ## Features
 
-- [navigation.tabs](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+tabs#navigation-tabs)
 - [navigation.tabs.sticky](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+tabs#sticky-navigation-tabs)
 - [navigation.expand](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+tabs#navigation-expansion)
 - [navigation.indexes](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+tabs#section-index-pages)
