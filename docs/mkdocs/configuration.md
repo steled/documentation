@@ -7,7 +7,7 @@
 - create a new GitHub repository
 - create the following structure:
 
-``` { .sh .no-select }
+``` { .sh .no-copy }
 .
 ├─ docs/
 │  └─ index.md
@@ -20,7 +20,7 @@
 
 ``` { .yaml }
 site_name: My site
-site_url: https://mydomain.org/mysite
+site_url: https://<username>.github.io/<repository>
 theme:
   name: material
 ```
