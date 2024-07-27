@@ -27,4 +27,4 @@ nav:
   - Home:
     - index.md
   - MkDocs:
-    - configuration.md
+    - mkdocs/configuration.md
