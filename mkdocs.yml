@@ -1,0 +1,4 @@
+site_name: Test
+site_url: https://steled.github.io/docs
+theme:
+  name: material
