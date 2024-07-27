@@ -2,6 +2,12 @@
 
 - how to configure MkDocs for use with GitHub Actions
 
+## Source
+
+- [MkDocs - Creating your site](https://squidfunk.github.io/mkdocs-material/creating-your-site/#creating-your-site)
+- [MkDocs - Configuration](https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration)
+- [MkDocs - GitHub Pages](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#github-pages)
+
 ## Creating the site
 
 - create a new GitHub repository
