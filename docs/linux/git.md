@@ -5,9 +5,9 @@
 ### set username and email
 
 source:
+
   - [[GitHub] Setting your username in Git](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git)
   - [[GitHub] Setting your commit email address](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address)
- 
 
 
 - to setup your username and email globally use the following commands
