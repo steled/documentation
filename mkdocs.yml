@@ -1,0 +1,51 @@
+site_author: steled
+site_name: Documentation of steled
+site_url: https://steled.github.io/documentation
+repo_url: https://github.com/steled/boilerplate
+repo_name: steled/boilerplate
+theme:
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.indexes
+    - content.code.copy
+  language: en
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  plugins:
+    - search:
+      lang: en
+markdown_extensions:
+  - admonition
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+nav:
+  - Home:
+    - index.md
+  - Kubernetes:
+    - kubernetes/useful_commands.md
+  - Linux:
+    - linux/git.md
+    - linux/useful_commands.md
+  - MkDocs:
+    - mkdocs/create_configure_publish.md
+    - mkdocs/features_plugins_extensions.md
+  - Notes:
+    - notes/abp_filter.md
