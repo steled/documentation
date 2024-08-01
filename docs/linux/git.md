@@ -9,6 +9,7 @@ source:
   - [[GitHub] Setting your username in Git](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git)
   - [[GitHub] Setting your commit email address](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address)
 
+---
 
 - to setup your username and email globally use the following commands
 
@@ -29,6 +30,8 @@ git config user.email "max.mustermann@muster.de"
 
 source: [[GitHub] Renaming a branch](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch)
 
+---
+
 - if you need to rename your branch execute the following commands:
 
 ``` { .sh }
@@ -44,6 +47,8 @@ git remote prune origin
 ### git tag
 
 source: [[Atlassian] Git tag](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag)
+
+---
 
 - if you need to create a new tag execute the following commands:
 
@@ -65,6 +70,8 @@ git tag -a -f v1.4 15027957951b64cf874c3557a0f3547bd83b3ff6
 ### delete commit history
 
 source: [[Xebia] How to Delete Commit History – A Step-by-Step Guide](https://xebia.com/blog/deleting-your-commit-history/)
+
+---
 
 - if you need to delete your commit history do the following steps
 
