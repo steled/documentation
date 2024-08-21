@@ -26,6 +26,16 @@ git config user.name "Max Mustermann"
 git config user.email "max.mustermann@muster.de"
 ```
 
+### store temporarily passwords
+
+source: [[git] git-credential-cache](https://git-scm.com/docs/git-credential-cache)
+
+- use the `git-credential-cache` helper
+
+``` { .sh }
+git config credential.helper 'cache --timeout=28800' # 8 hours
+```
+
 ### rename GitHub branch
 
 source: [[GitHub] Renaming a branch](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch)
