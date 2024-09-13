@@ -39,6 +39,11 @@ markdown_extensions:
 nav:
   - Home:
     - index.md
+  - Kubernetes:
+    - kubernetes/useful_commands.md
+  - Linux:
+    - linux/git.md
+    - linux/useful_commands.md
   - MkDocs:
     - mkdocs/create_configure_publish.md
     - mkdocs/features_plugins_extensions.md
