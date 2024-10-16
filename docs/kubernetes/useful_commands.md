@@ -34,3 +34,11 @@ k get volumeattachments.storage.k8s.io -o custom-columns=":metadata.name,:spec.n
 k get volumeattachments.storage.k8s.io -o custom-columns=":metadata.name,:spec.nodeName" | grep $NODE | cut -d" " -f1 | xargs -r -t -L1 kubectl delete volumeattachments.storage.k8s.io
 k delete node $NODE
 ```
+
+## Node `NotReady` taint
+
+- nodes that are in `NotReady` state can be tainted by the following command to remove them in a correct way:
+
+`kubectl taint node <NODENAME> node.kubernetes.io/out-of-service:NoExecute`
+
+- for more information check the kubernetes documentation of [Non-graceful node shutdown handling](https://kubernetes.io/docs/concepts/cluster-administration/node-shutdown/#non-graceful-node-shutdown)
