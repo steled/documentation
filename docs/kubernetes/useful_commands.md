@@ -25,7 +25,7 @@ k describe pods -n <NAMESPACE> <POD>
 # Events: Multi-Attach error for volume "pvc-uuid" Volume is already exclusively attached to one node and can't be attached to another.
 ```
 
-- to solve this in a smei-automated way you can use the following lines:
+- to solve this in a semi-automated way you can use the following lines:
 
 ``` { .sh }
 NODE=<OLD_NODE>
@@ -35,10 +35,16 @@ k get volumeattachments.storage.k8s.io -o custom-columns=":metadata.name,:spec.n
 k delete node $NODE
 ```
 
-## Node `NotReady` taint
+## node `NotReady` taint
 
 - nodes that are in `NotReady` state can be tainted by the following command to remove them in a correct way:
 
 `kubectl taint node <NODENAME> node.kubernetes.io/out-of-service:NoExecute`
 
 - for more information check the kubernetes documentation of [Non-graceful node shutdown handling](https://kubernetes.io/docs/concepts/cluster-administration/node-shutdown/#non-graceful-node-shutdown)
+
+## delete evicted pods
+
+``` { .sh }
+k get pods -n <NAMESPACE> -o jsonpath='{.items[?(@.status.reason=="Evicted")].metadata.name}' | xargs kubectl delete pod -n <NAMESPACE>
+```
