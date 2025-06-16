@@ -49,3 +49,4 @@ nav:
     - mkdocs/features_plugins_extensions.md
   - Notes:
     - notes/abp_filter.md
+    - notes/cloudflare.md
