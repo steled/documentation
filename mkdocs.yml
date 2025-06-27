@@ -41,6 +41,7 @@ nav:
     - index.md
   - Kubernetes:
     - kubernetes/useful_commands.md
+    - kubernetes/helm.md
   - Linux:
     - linux/git.md
     - linux/useful_commands.md
